@@ -30,17 +30,16 @@ body {
   overflow: hidden;
 }
 /* -----------header----------- */
-.header {
+/* .header {
 }
 .header-navigation {
-}
+} */
 
 .header-logo {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  /* identical to box height, or 133% */
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -52,17 +51,16 @@ body {
   color: var(--logo-color);
 }
 
-.header-list {
+/* .header-list {
 }
 .header-item {
-}
+} */
 .header-link {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
 
   letter-spacing: 0.02em;
 }
@@ -73,25 +71,24 @@ body {
 }
 
 /* ------------address-------------- */
-.address-list {
-}
+/* .address-list {
+} */
 .address-link:hover,
 .address-link:focus {
   color: var(--hover-btn);
   background-color: var(--main-background);
 }
-.address-phone {
+/* .address-phone {
 }
 
 .address-email {
-}
+} */
 .address-link {
   text-decoration: none;
   color: var(--small-elements-color);
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
 
   letter-spacing: 0.02em;
 }
@@ -108,7 +105,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  /* identical to box height */
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -133,25 +129,22 @@ body {
 .hero-slogan {
   /* Header 1 */
 
-  font-size: 55px;
+  font-size: 56px;
   line-height: 1.07;
   /* or 107% */
 
   letter-spacing: 0.02em;
 
   color: var(--main-background);
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .hero-button {
+  font-family: inherit;
   background: var(--logo-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
   font-weight: 500;
   font-size: 15px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
 
   color: var(--main-background);
   border-style: none;
@@ -162,13 +155,12 @@ body {
   background-color: var(--hover-btn);
 }
 /*----------------------------Values---------------------*/
-.values-section {
-}
+/* .values-section {
+} */
 .values-section-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
 
@@ -179,15 +171,14 @@ body {
   /* Inside auto layout */
 }
 
-.values-section-list {
+/* .values-section-list {
 }
 .values-section-item {
-}
+} */
 .values-section-item-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
 
@@ -207,12 +198,11 @@ body {
   color: var(--text-color);
 }
 /*----------------------------Doing---------------------*/
-.doing-section {
-}
+/* .doing-section {
+} */
 .doing-section-header {
   font-size: 35px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -222,10 +212,10 @@ body {
   color: var(--text-color);
 }
 
-.doing-section-list {
+/* .doing-section-list {
 }
 .doing-section-item {
-}
+} */
 /*----------------------------Team---------------------*/
 .team-section {
   background-color: var(--footer-link-color);
@@ -233,7 +223,6 @@ body {
 .team-section-header {
   font-size: 35px;
   line-height: 1.11;
-  /* identical to box height, or 111% */
 
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -242,15 +231,14 @@ body {
 
   color: var(--text-color);
 }
-.team-section-lsit {
+/* .team-section-lsit {
 }
 .team-section-item {
-}
+} */
 .team-section-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -258,18 +246,17 @@ body {
 .team-section-position {
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
 
   letter-spacing: 0.02em;
 }
 
 /* -------------------------------Portfolio page------------------------- */
-.filter-list {
+/* .filter-list {
 }
 .filter-list-item {
-}
+} */
 .filter-list-item-btn {
-  font-family: 'roboto' sans-serif;
+  font-family: inherit;
 
   /* CLOUD */
 
@@ -281,11 +268,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
 
   /* IRIS */
@@ -296,17 +279,12 @@ body {
 .filter-list-item-btn:hover,
 :focus {
   background: var(--hover-btn);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+
   color: var(--main-background);
 }
 /* ----------------------------------Projects section--------------------- */
-.projects-section {
-  border: 1px solid var(--footer-text-color);
-}
 
-.projects-section-list {
-  box-sizing: border-box;
+/* .projects-section-list {
 }
 
 .projects-section-item-firstLine {
@@ -314,21 +292,18 @@ body {
 .projects-section-item-secondLine {
 }
 .projects-section-item-thirdLine {
-}
+} */
 .projects-section-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  /* identical to box height, or 120% */
+  line-height: 1.2px;
 
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
 .projects-section-type {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
+  line-height: 1.5px;
 
   letter-spacing: 0.02em;
 }
